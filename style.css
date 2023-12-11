@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-colour{
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(234, 51, 0, 0.3));
+    /* background-color: rgb(114, 114, 239,0.9); */
+}
+#aj-logo{
+    border-radius: 18%;
+    height: 40px;
+    width: 45px
+
+}
+#color li a{
+    color: rgba(51, 44, 59, 0.9);
+    margin: 0 25px;
+}
+#color li a:hover{
+    color: white;
+}
+.ourtour{
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+   
+}
+.hvr,#unchange{
+    transition: all 0.5s ease-in-out
+}
+.hvr:hover,#unchange:hover{
+    transform: scale(1.05);
+}
+#change{
+    /* height: 50%;
+    width: 50%; */
+    transition: all 0.8s linear;
+    cursor: pointer;
+}
+#change:hover{
+   transform: translateZ(200px);
+   transform: rotatey(180deg);
+    
+    
+}
+.lft{
+margin-left: 13px;
+}
+#change{
+    perspective: 1000px;
+}
+.jty{
+    text-align: justify;
+    font-size: 15px;
+}
+.aj{
+    flex-wrap: wrap;
+}
+#buttn:hover{
+    background-color: rgb(248, 13, 13);
+    color: white;
+}
+.map{
+    flex-wrap: wrap;
+}
+.aj{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fttr{
+    position: relative;
+    top: 24px;
+}
+.links p a{
+    text-decoration: none;
+}
+.links p:hover{
+    color: red;
+}
+.con-back{
+    justify-content: space-evenly;
+}
